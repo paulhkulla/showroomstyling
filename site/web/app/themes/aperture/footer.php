@@ -30,7 +30,13 @@
 
                     <div class="credits">
                         <span class="credits-top"><b>SHOW</b>ROOM &copy; <?php echo date('Y'); ?></span>
+                        <span class="sep"> | </span>
+                        <span class="credits-bottom">Email: <a href="mailto:info@showroomstyling.com">info@showroomstyling.com</a></span>
                     </div><!-- .credits -->
+
+                    <div class="custom-text">
+                        <span>Call us: <b>+372 555666</b></span>
+                    </div><!-- .custom-text -->
 
                 </div><!-- .site-info -->
 

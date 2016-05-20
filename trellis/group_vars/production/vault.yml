@@ -9,8 +9,9 @@ vault_sudoer_passwords:
 # Note: the site name (`example.com`) must match up with the site name in the above file.
 vault_wordpress_sites:
   showroomstyling.com:
+    admin_password: Admin1EX
     env:
-      db_password: 6fVCeFfMbC4dDCrDFqrp{jgP
+      db_password: Admin1EX
       # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
       auth_key: ",3C2H-qvQ}kKE]*PH%ZTG3rOx|vDf15Gg:&P2L=/+5 gJV,kS]sGe|-Bsym$/l),'"
       secure_auth_key: "-=Jvg)t6-cB0NV=LVMI=.e{|*-o9G&65&iy3 6-Wa*N7Hc}xlqt?D){Phl+,GJ9)"

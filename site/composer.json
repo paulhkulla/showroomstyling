@@ -32,6 +32,8 @@
       "url": "https://wpackagist.org"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
@@ -39,7 +41,8 @@
     "johnpbloch/wordpress": "4.5",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "roots/soil": "3.7.0"
+    "roots/soil": "3.7.0",
+    "wp-sync-db/wp-sync-db": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
